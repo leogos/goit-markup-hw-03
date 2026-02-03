@@ -56,7 +56,8 @@ body {
     justify-content: center;
     align-items: center;
     gap: 45px;
-    padding: 24px 0
+    padding: 24px 0;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .nav .ul {
@@ -192,11 +193,12 @@ h2 {
 
 .team h3 {
     color: #06093b;
-    margin-top: 32px;
+    margin: 8px;
+    padding-top: 32px;
 }
 
 .team p {
-    padding: 16px 0 0 0;
+    padding-bottom: 32px;
 }
 
 .team h3:hover {
@@ -281,9 +283,21 @@ a {
 
 .portfolio h3 {
     color: #06093b;
-    margin-top: 32px;
+    padding-top: 32px;
+    padding-left: 16px;
+    margin-bottom: 8px;
 }
 
 .portfolio p {
-    padding: 16px 0 0 0;
+    padding-bottom: 32px;
+    padding-left: 16px;
+}
+
+.card {
+    display: block;
+    background-color: #ffffff;
+} 
+
+.portfolio .card {
+    border: 1px solid #E7E9FC;
 }

@@ -226,8 +226,8 @@ a {
 }
 
 .features .ul {
-   display: flex;
-   flex-direction: row;
+    display: flex;
+    flex-direction: row;
     gap: 30px;
 }
 
@@ -296,7 +296,7 @@ a {
 .card {
     display: block;
     background-color: #ffffff;
-} 
+}
 
 .portfolio .card {
     border: 1px solid #E7E9FC;

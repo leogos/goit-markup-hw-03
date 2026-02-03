@@ -301,3 +301,9 @@ a {
 .portfolio .card {
     border: 1px solid #E7E9FC;
 }
+
+.card-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}

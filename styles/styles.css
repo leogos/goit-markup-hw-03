@@ -1,0 +1,289 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1158px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+
+.logo {
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    vertical-align: middle;
+    text-transform: uppercase;
+}
+
+.logo {
+    color: #2e2f42;
+}
+
+.logo-web {
+    color: #4d5ae5;
+}
+
+.logo-web-2 {
+    color: #ffffff;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    padding: 24px 0
+}
+
+.nav .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 76px;
+    gap: 40px
+}
+
+.nav-info .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 156px;
+    gap: 40px;
+}
+
+.nav a:hover:hover,
+.nav a:hover:focus {
+    color: #404bbf;
+}
+
+.nav-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+.nav-contact {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    list-style: none;
+}
+
+.nav-contact a:hover {
+    color: #404bbf;
+}
+
+h1 {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    background-color: #2e2f42;
+    color: #ffffff;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.text {
+    font-size: 16px;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.h3 {
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 2%;
+}
+
+.footer {
+    background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 180px;
+    padding-top: 100px;
+    gap: 16px;
+}
+
+.footer p {
+    color: #e7e9fc;
+    margin-left: 156px;
+    width: 264px;
+}
+
+.footer a {
+    margin-left: 156px;
+}
+
+.hero {
+    background-color: #2e2f42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 188px 0;
+    gap: 48px;
+}
+
+.team {
+    background-color: #f4f4fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.team .ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.team h2 {
+    top: 1136px;
+    left: 639px;
+    margin-bottom: 72px;
+}
+
+.team h3 {
+    color: #06093b;
+    margin-top: 32px;
+}
+
+.team p {
+    padding: 16px 0 0 0;
+}
+
+.team h3:hover {
+    color: blue;
+}
+
+.ul {
+    list-style: none;
+}
+
+.button:hover {
+    background-color: #404bbf;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.features {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.features .ul {
+   display: flex;
+   flex-direction: row;
+    gap: 30px;
+}
+
+.features h3 {
+    display: flex;
+    padding: 32px 0 0 0;
+}
+
+.features li {
+    list-style: none;
+}
+
+.features p {
+    padding: 16px 0 0 0;
+    margin-top: 8px;
+}
+
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip-path: inset(100%);
+    white-space: nowrap;
+    border: 0;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 120px 0;
+}
+
+.portfolio .ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.portfolio h2 {
+    top: 1136px;
+    left: 639px;
+    margin-bottom: 72px;
+}
+
+.portfolio h3 {
+    color: #06093b;
+    margin-top: 32px;
+}
+
+.portfolio p {
+    padding: 16px 0 0 0;
+}

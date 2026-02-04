@@ -1,7 +1,7 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 h1,
@@ -9,41 +9,41 @@ h2,
 h3,
 p,
 ul {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 1158px;
-    margin: 0 auto;
+  max-width: 1158px;
+  margin: 0 auto;
 }
 
 body {
-    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
-    letter-spacing: 0.02em;
-    line-height: 1.5;
-    color: #434455;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+  color: #434455;
 }
 
 .logo {
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    vertical-align: middle;
-    text-transform: uppercase;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  text-transform: uppercase;
 }
 
 .logo {
-    color: #2e2f42;
+  color: #2e2f42;
 }
 
 .logo-web {
-    color: #4d5ae5;
+  color: #4d5ae5;
 }
 
 .logo-web-2 {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 .header {
@@ -82,20 +82,20 @@ body {
 }
 
 .nav-info {
-    margin-left: auto;
-}   
+  margin-left: auto;
+}
 
 .ul {
   list-style: none;
 }
 
 .nav {
-    margin-left: 76px;
+  margin-left: 76px;
 }
 
 .nav a,
 .nav-info a {
-  color: #2E2F42;
+  color: #2e2f42;
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -106,48 +106,48 @@ body {
 .nav a:focus,
 .nav-info a:hover,
 .nav-info a:focus {
-  color: #404BBF;
+  color: #404bbf;
 }
 
 h1 {
-    font-size: 56px;
-    line-height: 1.07;
-    letter-spacing: 0.02em;
-    text-align: center;
-    background-color: #2e2f42;
-    color: #ffffff;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  background-color: #2e2f42;
+  color: #ffffff;
 }
 
 .button {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    vertical-align: middle;
-    color: #ffffff;
-    background-color: #4d5ae5;
-    cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  vertical-align: middle;
+  color: #ffffff;
+  background-color: #4d5ae5;
+  cursor: pointer;
 }
 
 .text {
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 h2 {
-    font-size: 36px;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-align: center;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .h3 {
-    font-style: Medium;
-    font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 2%;
+  font-style: Medium;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
 }
 
 .footer {
@@ -183,137 +183,134 @@ h2 {
 }
 
 .team {
-    background-color: #f4f4fd;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 120px 0;
+  background-color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 120px 0;
 }
 
 .team .ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
 }
 
 .team h2 {
-    margin-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .team h3 {
-    color: #06093b;
-    margin: 8px;
-    padding-top: 32px;
+  color: #06093b;
+  margin: 8px;
+  padding-top: 32px;
 }
 
 .team p {
-    padding-bottom: 32px;
+  padding-bottom: 32px;
 }
 
 .team h3:hover {
-    color: blue;
+  color: blue;
 }
 
 .ul {
-    list-style: none;
+  list-style: none;
 }
 
 .button:hover {
-    background-color: #404bbf;
+  background-color: #404bbf;
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .features {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px 0;
 }
 
 .features .ul {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .features h3 {
-    display: flex;
+  display: flex;
 }
 
 .features li {
-    list-style: none;
-    
+  list-style: none;
 }
 
 .features p {
-    margin-top: 8px;
+  margin-top: 8px;
 }
 
-
-
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    clip-path: inset(100%);
-    white-space: nowrap;
-    border: 0;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  white-space: nowrap;
+  border: 0;
 }
 
 .portfolio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 120px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 120px 0;
 }
 
 .portfolio .ul {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  gap: 30px;
 }
 
 .portfolio h2 {
-    top: 1136px;
-    left: 639px;
-    margin-bottom: 72px;
+  top: 1136px;
+  left: 639px;
+  margin-bottom: 72px;
 }
 
 .portfolio h3 {
-    color: #06093b;
-    padding-top: 32px;
-    padding-left: 16px;
-    margin-bottom: 8px;
+  color: #06093b;
+  padding-top: 32px;
+  padding-left: 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio p {
-    padding-bottom: 32px;
-    padding-left: 16px;
+  padding-bottom: 32px;
+  padding-left: 16px;
 }
 
 .card {
-    display: block;
-    background-color: #ffffff;
+  display: block;
+  background-color: #ffffff;
 }
 
 .portfolio .card {
-    border: 1px solid #E7E9FC;
+  border: 1px solid #e7e9fc;
 }
 
 .card-image {
-    display: block;
-    width: 100%;
-    height: auto;
+  display: block;
+  width: 100%;
+  height: auto;
 }

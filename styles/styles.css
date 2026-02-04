@@ -49,13 +49,6 @@ body {
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  background-color: #ffffff;
-  border-bottom: 1px solid #e7e9fc;
-  z-index: 1000;
 }
 
 .header .container {

@@ -153,10 +153,12 @@ h2 {
 .footer p {
     color: #e7e9fc;
     width: 264px;
+    margin-left: 156px;
 }
 
 .footer a {
     text-decoration: none;
+    margin-left: 156px;
 }
 
 .hero {
@@ -228,7 +230,6 @@ a {
 .features .ul {
     display: flex;
     flex-direction: row;
-    gap: 30px;
 }
 
 .features h3 {

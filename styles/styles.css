@@ -72,7 +72,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 156px;
+    margin-left: 332px;
     gap: 40px;
 }
 
@@ -181,7 +181,7 @@ h2 {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 30px;
+    gap: 24px;
 }
 
 .team h2 {
@@ -222,28 +222,26 @@ a {
     flex-direction: column;
     justify-content: center;
     padding: 120px 0;
-    gap: 24px
 }
 
 .features .ul {
     display: flex;
     flex-direction: row;
+    gap: 24px;
 }
 
 .features h3 {
     display: flex;
     padding: 32px 0 0 0;
-    margin: 0 12px 0 12px;
 }
 
 .features li {
     list-style: none;
+    
 }
 
 .features p {
-    padding: 16px 0 0 0;
     margin-top: 8px;
-    margin: 12px;
 }
 
 

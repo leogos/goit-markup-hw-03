@@ -58,7 +58,7 @@ body {
 
 .nav .ul {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -67,7 +67,7 @@ body {
 
 .nav-info .ul {
   display: flex;
-  gap: 24px;
+  gap: 40px;
   padding: 0;
   margin-top: 0;
   margin-bottom: 0;
@@ -109,6 +109,9 @@ h1 {
   text-align: center;
   background-color: #2e2f42;
   color: #ffffff;
+  max-width: 496px;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .button {
@@ -120,6 +123,9 @@ h1 {
   color: #ffffff;
   background-color: #4d5ae5;
   cursor: pointer;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
 }
 
 .text {
@@ -197,7 +203,7 @@ h2 {
 
 .team h3 {
   color: #06093b;
-  margin: 8px;
+  margin-bottom: 8px;
   padding-top: 32px;
 }
 
